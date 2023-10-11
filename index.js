@@ -8,5 +8,5 @@ app.use(morgan('dev'));
 app.use(express.static('public'));
 
 app.listen(PORT, () => {
-  console.log(`Server is listening at http://localhost:${PORT}`);
+  console.log(`Server is listening at http://localhost:3000`);
 });
